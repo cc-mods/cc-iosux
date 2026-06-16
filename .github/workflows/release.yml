@@ -1,4 +1,4 @@
-# cc-iostitlebuttons — release automation.
+# cc-iosux — release automation.
 #
 # WHAT THIS DOES
 #   - On every push to `main`: bumps the PATCH (z) of x.y.z in ccmod.json (and package.json),
@@ -100,8 +100,8 @@ jobs:
           set -euo pipefail
           STAGE="$(mktemp -d)"
           # Ship only the runtime + docs. Exclude dev-only files (.github/, .git/, .gitignore).
-          cp ccmod.json package.json prestart.js icon.png README.md LICENSE "$STAGE/"
-          ASSET="cc-iostitlebuttons-${NEW_VERSION}.ccmod"
+          cp ccmod.json package.json prestart.js poststart.js icon.png README.md LICENSE "$STAGE/"
+          ASSET="cc-iosux-${NEW_VERSION}.ccmod"
           ( cd "$STAGE" && zip -r "${GITHUB_WORKSPACE}/${ASSET}" . )
           ls -la "${GITHUB_WORKSPACE}/${ASSET}"
           echo "asset=${ASSET}" >> "$GITHUB_OUTPUT"

@@ -1,10 +1,10 @@
 {
-	"id": "cc-iostitlebuttons",
-	"version": "1.0.1",
-	"title": "cc-ios Title Buttons",
-	"description": "Adds native Restart Game and Close Game buttons to the title-screen menu when running inside the cc-ios iPhone/iPad wrapper. On desktop CrossCode it is a deliberate no-op (the desktop build already has a native Close button), so it stays safe to install everywhere.",
-	"repository": "https://github.com/cc-mods/cc-iostitlebuttons",
-	"homepage": "https://github.com/cc-mods/cc-iostitlebuttons",
+	"id": "cc-iosux",
+	"version": "1.1.0",
+	"title": "cc-ios UX",
+	"description": "Quality-of-life tweaks for CrossCode running inside the cc-ios iPhone/iPad wrapper: native Restart Game and Close Game title-screen buttons, plus a toggle for the on-screen FPS counter (CCModManager → Mod settings). On desktop CrossCode it is a deliberate no-op, so it stays safe to install everywhere.",
+	"repository": "https://github.com/cc-mods/cc-iosux",
+	"homepage": "https://github.com/cc-mods/cc-iosux",
 	"authors": [
 		"Yoyokrazy"
 	],
@@ -15,6 +15,7 @@
 		"24": "icon.png"
 	},
 	"prestart": "prestart.js",
+	"poststart": "poststart.js",
 	"dependencies": {
 		"crosscode": "^1.1.0 || 1.0.2"
 	}

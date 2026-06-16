@@ -1,5 +1,5 @@
-// cc-iostitlebuttons — native "Restart Game" and "Close Game" entries on the CrossCode
-// title-screen menu, for the cc-ios iPhone/iPad wrapper.
+// cc-iosux — native "Restart Game" and "Close Game" entries on the CrossCode title-screen
+// menu, for the cc-ios iPhone/iPad wrapper. (The FPS-counter toggle lives in poststart.js.)
 //
 // WHY / WHERE IT RUNS
 //   On cc-ios the game runs inside a native WKWebView whose host app exposes a "cccontrol"
@@ -23,7 +23,7 @@
 (function () {
 	"use strict";
 
-	var TAG = "[cc-iostitlebuttons]";
+	var TAG = "[cc-iosux]";
 
 	// Is the cc-ios native control bridge present? Absent on desktop NW.js and any non-cc-ios host.
 	function hasControlBridge() {

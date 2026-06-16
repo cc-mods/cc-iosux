@@ -1,9 +1,10 @@
 {
-	"name": "cc-iostitlebuttons",
-	"version": "1.0.1",
-	"ccmodHumanName": "cc-ios Title Buttons",
-	"description": "Native Restart/Close title-screen buttons for CrossCode on the cc-ios wrapper (no-op on desktop).",
+	"name": "cc-iosux",
+	"version": "1.1.0",
+	"ccmodHumanName": "cc-ios UX",
+	"description": "Quality-of-life tweaks for CrossCode on the cc-ios wrapper: Restart/Close title buttons + an FPS-counter toggle (no-op on desktop).",
 	"prestart": "prestart.js",
+	"poststart": "poststart.js",
 	"ccmodDependencies": {
 		"crosscode": "^1.1.0 || 1.0.2"
 	}
