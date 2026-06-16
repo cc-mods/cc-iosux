@@ -1,0 +1,15 @@
+{
+	"id": "cc-iostitlebuttons",
+	"version": "1.0.0",
+	"title": "cc-ios Title Buttons",
+	"description": "Adds native Restart Game and Close Game buttons to the title-screen menu when running inside the cc-ios iPhone/iPad wrapper. On desktop CrossCode it is a deliberate no-op (the desktop build already has a native Close button), so it stays safe to install everywhere.",
+	"repository": "https://github.com/cc-mods/cc-iostitlebuttons",
+	"homepage": "https://github.com/cc-mods/cc-iostitlebuttons",
+	"authors": ["Yoyokrazy"],
+	"tags": ["QoL"],
+	"icons": { "24": "icon.png" },
+	"prestart": "prestart.js",
+	"dependencies": {
+		"crosscode": "^1.1.0 || 1.0.2"
+	}
+}
