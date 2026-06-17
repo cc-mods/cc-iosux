@@ -2,7 +2,7 @@
 	"name": "cc-iosux",
 	"version": "1.1.1",
 	"ccmodHumanName": "cc-ios UX",
-	"description": "Quality-of-life tweaks for CrossCode on the cc-ios wrapper: Restart/Close title buttons + an FPS-counter toggle (no-op on desktop).",
+	"description": "iOS quality-of-life: Restart/Close title buttons + FPS-counter toggle (Mod settings). Clean no-op on desktop.",
 	"prestart": "prestart.js",
 	"poststart": "poststart.js",
 	"ccmodDependencies": {

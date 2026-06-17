@@ -54,7 +54,7 @@
 								type: "CHECKBOX",
 								init: true,
 								name: "Show FPS counter",
-								description: "Show the on-screen frames-per-second counter (drawn by the cc-ios app in the letterbox bar)."
+								description: "Show the on-screen FPS counter."
 							}
 						}
 					}

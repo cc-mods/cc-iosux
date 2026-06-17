@@ -2,7 +2,7 @@
 	"id": "cc-iosux",
 	"version": "1.1.1",
 	"title": "cc-ios UX",
-	"description": "Quality-of-life tweaks for CrossCode running inside the cc-ios iPhone/iPad wrapper: native Restart Game and Close Game title-screen buttons, plus a toggle for the on-screen FPS counter (CCModManager → Mod settings). On desktop CrossCode it is a deliberate no-op, so it stays safe to install everywhere.",
+	"description": "iOS quality-of-life: Restart/Close title buttons + FPS-counter toggle (Mod settings). Clean no-op on desktop.",
 	"repository": "https://github.com/cc-mods/cc-iosux",
 	"homepage": "https://github.com/cc-mods/cc-iosux",
 	"authors": [
